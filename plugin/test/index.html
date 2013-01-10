@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>测试插件</title>
+		<link rel="stylesheet" href="../css/index.css">
+		<script src="../jquery-1.8.2.js" type="text/javascript"></script>
+		<script src="../js/jquery.yan.ui.3.0.js" type="text/javascript"></script>
+		
+		<script>
+			$(function(){
+				$('.yanVhSlideCenter.fold').click(function(e){
+					$('#yanVhSlideCenter div').yanVhSlideCenter();
+				});
+				$('.yanVhSlideCenter.unfold').click(function(e){
+					$('#yanVhSlideCenter div').yanVhSlideSide();
+				})
+			});
+		</script>
+	</head>
+	<body>
+		<div id="yanVhSlideCenter">
+			<div>
+				
+			</div>			
+		</div><!-- end of #yanVhSlideCenter-->
+		<button class="yanVhSlideCenter fold">收起</button>
+		<button class="yanVhSlideCenter unfold">散开</button>
+		<pre class="yanVhSlideCenter">
+			<code >
+$(function(){
+	$('.yanVhSlideCenter.fold').click(function(e){
+		$('#yanVhSlideCenter div').yanVhSlideCenter();
+	});
+	$('.yanVhSlideCenter.unfold').click(function(e){
+		$('#yanVhSlideCenter div').yanVhSlideSide();
+	})
+});
+			</code>
+		</pre>
+	</body>
+</html>
