@@ -1,0 +1,33 @@
+{
+    "name": "2DUI",
+    "title": "jQuery yan.ui.2D",
+    "description": "jquery UI 2D plug",
+    "keywords": [
+    			"animation",
+    			"UI"
+      	],
+    "version": "1.0.0",
+    "author": {
+      "name": "yanhaijing",
+      "url": "https://github.com/yanhaijing"
+    },
+    "maintainers": [
+    {
+      "name": "yanhaijing",
+      "email": "yanhaijing1234@gmail.com",
+      "url": "http://t.qq.com/yanhaijing1234"
+    }
+  ],
+    "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/yanhaijing/jquery.yan.ui/blob/master/MIT-LICENSE.txt"
+    }
+  ],
+    "bugs": "https://github.com/yanhaijing/jquery.yan.ui/issues",
+    "homepage": "https://github.com/yanhaijing/jquery.yan.ui",
+    "docs": "https://github.com/yanhaijing/jquery.yan.ui",
+    "dependencies": {
+      "jquery": ">=1.5"
+    }
+}
