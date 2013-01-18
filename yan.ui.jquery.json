@@ -1,12 +1,12 @@
 {
-    "name": "2DUI",
+    "name": "yan.ui",
     "title": "jQuery yan.ui.2D",
     "description": "jquery UI 2D plug",
     "keywords": [
     			"animation",
     			"UI"
       	],
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": {
       "name": "yanhaijing",
       "url": "https://github.com/yanhaijing"
